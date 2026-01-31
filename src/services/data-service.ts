@@ -1,5 +1,5 @@
 import { supabase } from '@/lib/supabase'
-import { Product, Store, Sale, SaleItem, Company, Payment, StockMovement } from '@/types'
+import { Product, Store, Sale, SaleItem, Company, Payment, StockMovement, Category } from '@/types'
 
 // Utilitário para converter snake_case (DB) para camelCase (App)
 const toCamelCase = (obj: any): any => {
